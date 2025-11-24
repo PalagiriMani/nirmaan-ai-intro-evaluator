@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nirmaan AI Scoring Tool</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jsPDF for PDF download -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+
+<h1>Nirmaan AI Scoring Tool</h1>
+
+<textarea id="inputText" placeholder="Paste transcript here..."></textarea>
+
+<!-- Score Button -->
+<button id="scoreBtn" onclick="sendForScoring()">Score Transcript</button>
+
+<!-- Simple Loader -->
+<div id="loader" class="hidden"></div>
+
+<!-- PDF Download Button -->
+<button id="downloadBtn" class="hidden" onclick="downloadPDF()">Download PDF</button>
+
+<!-- Output Section -->
+<div id="output"></div>
+
+<script src="script.js"></script>
+</body>
+</html>

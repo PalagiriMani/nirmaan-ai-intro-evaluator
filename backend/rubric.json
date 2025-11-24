@@ -1,0 +1,42 @@
+[
+  {
+    "criterion": "Content & Structure",
+    "metric": "Salutation Level",
+    "weight": 5
+  },
+  {
+    "criterion": "Content & Structure",
+    "metric": "Keyword Presence",
+    "weight": 30
+  },
+  {
+    "criterion": "Content & Structure",
+    "metric": "Flow",
+    "weight": 5
+  },
+  {
+    "criterion": "Speech Rate",
+    "metric": "Speech Rate (WPM)",
+    "weight": 10
+  },
+  {
+    "criterion": "Language & Grammar",
+    "metric": "Grammar Errors Count",
+    "weight": 10
+  },
+  {
+    "criterion": "Language & Grammar",
+    "metric": "Vocabulary Richness (MTLD/TTR)",
+    "weight": 10
+  },
+  {
+    "criterion": "Clarity",
+    "metric": "Filler Word Rate",
+    "weight": 15
+  },
+  {
+    "criterion": "Engagement",
+    "metric": "Sentiment / Positivity",
+    "weight": 15
+  }
+]

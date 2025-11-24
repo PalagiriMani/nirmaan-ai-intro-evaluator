@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background: #222;
+    color: white;
+    border: 1px solid #444;
+}
+
+button {
+    padding: 10px 16px;
+    margin: 5px 0;
+    cursor: pointer;
+    background: #008cff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.box {
+    background: #222;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: 1px solid #333;
+}
+
+/* Loader */
+#loader {
+    border: 6px solid #333;
+    border-top: 6px solid #00aaff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 20px auto;
+    animation: spin 1s linear infinite;
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

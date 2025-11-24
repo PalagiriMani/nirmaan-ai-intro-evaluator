@@ -1,0 +1,11 @@
+pandas
+numpy
+openpyxl
+sentence-transformers
+flask
+flask-cors
+sentence-transformers
+language-tool-python
+nltk
+vaderSentiment
+
